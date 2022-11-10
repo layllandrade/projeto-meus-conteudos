@@ -1,20 +1,14 @@
 import './App.css'
 import Header from './componentes/Header'
 import Sobre from './componentes/Sobre'
-import SobreMim from './componentes/SobreMim'
+import Bio from './componentes/Bio'
 import Footer from './componentes/Footer'
 
 function App() {
   return (
     <div className="div_do_app">
       <Header content="Meus conteudos favoritos"/>
-      <SobreMim
-        titulo="Prazer, eu sou a Laylla!"
-        imagem="https://avatars.githubusercontent.com/u/109319620?s=400&u=bd7d953440abbd2f57355aebeb42ad2c09f55a9d&v=4"
-        paragrafo="Tenho 26 anos, moro em Campina Grande -PB, formada em Direito desde 2019. Entusiasta
-        da tecnologia, encontrei no reprograma a oportunidade de migração de carreira, onde atualmente sou Aluna Front-end
-        da turma On20.
-        Confira abaixo meus conteudos favoritos:" />
+      <Bio />
       <Sobre
         titulo="Git"
         imagem="https://embarcados.com.br/wp-content/uploads/2015/02/imagem-de-destaque-39.png.webp"
